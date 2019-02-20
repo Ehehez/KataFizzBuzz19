@@ -15,6 +15,8 @@ public class FizzBuzz {
     }
     
     public String getFizzBuzz(int i){
-        return i+"";
+        if (i % 3 == 0){
+            return "Fizz";
+        } else return i+"";
     }
 }
